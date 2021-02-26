@@ -1,0 +1,28 @@
+body {
+  background-color: #efefef;
+
+}
+#btn {
+  width: 200px;
+  height: 200px;
+  background: #ef454a;
+  border-radius: 50%;/*角をまるくする*/
+  margin: 30px auto;
+  text-align: center;
+  line-height: 200px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 42px;
+  cursor: pointer;/*矢印を手のマークに*/
+  box-shadow: 0 10px 0 #d1483e;/*影*/
+  user-select:none;/*文字が選択されないようにする*/
+}
+
+#btn:hover {/*ボタンの上にカーソルが載った時*/
+  opacity: 0.9;/*マックス１で少し白っぽくなる*/
+}
+/* アクティブ擬似クラス　要素がクリックしたときに適用される */
+#btn:active {
+  box-shadow: 0 5px 0 #d1483e;
+  margin-top:35px;
+}
